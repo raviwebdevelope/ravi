@@ -1,0 +1,134 @@
+#header{
+    color: #fff;
+    background-color: #e74c3c;
+}
+.section{
+    padding: 70px 0px;
+}
+.section h2.section-head{
+    color: black;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2.section-head:after{
+    background-color: #c0392b;
+    content: "";
+    display: block;
+    width: 100px;
+    height:3px;
+    margin: 20px auto;
+}
+#menu{
+    margin-top: 13px;
+    padding: 0;
+    float: right;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+#menu li a:hover{
+    background-color: #c0392b;
+}
+a:hover{
+    text-decoration: none;
+}
+#banner{
+    background: url(../img/homepage_banner.jpg) no-repeat 0 0;
+    background-size: cover; 
+}
+.banner-title{
+    padding-top: 4rem;
+}
+.banner-title h2{
+    background-color: rgba(255,255,255,0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner-title p.lead{
+    color: #fff;
+    background-color: rgba(231,76,60,0.7);
+    padding: 10px;
+}
+.service-box{
+    text-align: center;
+}
+.service-box i{
+    font-weight: 700;
+    color: #e74c3c;
+    font-size: 70px;
+}
+#testimonial{
+    color: #fff;
+    background: url(../img/300-PD1058117.jpg) no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0px;
+    position: relative;
+}
+#testimonial:before{
+    background: rgba(252,253,255,0.3);
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+#testimonial img{
+    border-radius: 50px;
+}
+.icon{
+    color: #e74c3c;   
+}
+#footer-sidebar{
+    background-color: #34495e;
+    color: #fff;
+    padding: 20px 0px;
+}
+.footer-widget h4:after{
+    content: "";
+    display: block;
+    background-color: #fff;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+}
+.footer-widget a{
+    color: #fff;
+}
+.latest-news{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.latest-news li{
+    margin-bottom: 3px;
+}
+.latest-news li a{
+    text-decoration: none;
+}
+#footer{
+    color: #fff;
+    background-color: #2c3e50;
+    padding: 10px 0;
+}
+#social-icons{
+    list-style: none;
+    color: #fff;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+#social-icons li{
+    display: inline-block;
+    padding: 5px;
+}
+#social-icons li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
